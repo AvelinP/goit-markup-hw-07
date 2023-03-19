@@ -1,0 +1,33 @@
+.our-team {
+  background-color: var(--color3);
+
+  &__member-image {
+    box-shadow: 0px 1px 3px var(--color7), 0px 1px 1px var(--color8),
+      0px 2px 1px var(--color9);
+    border-radius: 0px 0px 4px 4px;
+    height: 428px;
+  }
+}
+
+.our-team-social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media-icon {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  background: var(--color20);
+  border-radius: 50%;
+  align-items: center;
+
+  & svg {
+    fill: #afb1b8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  & svg:hover {
+    fill: var(--background-color-header-and-main);
+  }
+}
